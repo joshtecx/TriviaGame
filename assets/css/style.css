@@ -1,0 +1,33 @@
+body{
+    background: #FFD90F;
+}
+
+header {
+    text-align: center;
+    font-size: 30px;
+    border-bottom: solid 2px rgb(185, 185, 185);
+
+}
+
+footer {
+    border-top: solid 2px rgb(185, 185, 185);
+    text-align: center;
+    padding: 30px;
+    /* overflow: auto;
+    clear: both; */
+}
+
+.container {
+    text-align: center;
+    padding: 30px;
+}
+
+#clock {
+    /* width: 10%; */
+    border: solid 2px rgb(185, 185, 185);
+    font-size: 50px;
+}
+
+#questionDisplay {
+    font-size: 20px;
+}
