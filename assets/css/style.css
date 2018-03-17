@@ -1,33 +1,69 @@
 body{
-    background: #FFD90F;
+    background: url("../images/springfield.jpg");
+    background-repeat: no-repeat, center, center fixed ;
+    background-size: 100% auto;
 }
 
 header {
     text-align: center;
     font-size: 30px;
-    border-bottom: solid 2px rgb(185, 185, 185);
+    color: #AF2107;
+    /* border-bottom: solid 2px rgb(185, 185, 185); */
 
 }
 
-footer {
-    border-top: solid 2px rgb(185, 185, 185);
-    text-align: center;
-    padding: 30px;
-    /* overflow: auto;
-    clear: both; */
+
+button {
+    background:	#2359F1;
+    color: #fff;
+    padding: 10px;
+    box-shadow: 4px 4px 8px #888;
+}
+
+button:hover {
+    box-shadow: 8px 8px 15px rgba(0,0,0,0.3);
+    transition: box-shadow 0.3s;
 }
 
 .container {
     text-align: center;
     padding: 30px;
+    /* background: #FFD90F; */
+    width: 50%;
+    margin-left: 22%;
+}
+
+.options1,
+.options2,
+.options3,
+.options4,
+.options5 {
+    margin-left: 5px;
+    
 }
 
 #clock {
     /* width: 10%; */
-    border: solid 2px rgb(185, 185, 185);
     font-size: 50px;
+    color: #AF2107;
 }
 
 #questionDisplay {
     font-size: 20px;
+    background: #FFD90F; 
+    padding: 30px;
+}
+
+#resultsDisplay {
+    font-size: 20px;
+    background: #FFD90F; 
+    padding: 30px;
+}
+
+#question1,
+#question2,
+#question3,
+#question4,
+#question5 {
+   color:  black;
 }
